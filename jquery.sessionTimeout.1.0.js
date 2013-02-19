@@ -47,11 +47,11 @@
 	jQuery.sessionTimeout = function( options ) {
 		var defaults = {
 			message      : 'Your session is about to expire.',
-			keepAliveUrl : 'keepAlive.asp',
-			redirUrl     : 'timedOut.asp',
-			logoutUrl    : 'logout.asp',
-			warnAfter    : 900000, // 15 minutes
-			redirAfter   : 1200000 // 20 minutes
+			keepAliveUrl : 'keepAlive.html',
+			redirUrl     : 'timedOut.html',
+			logoutUrl    : 'logout.html',
+			warnAfter    : 60000, // 1 minute
+			redirAfter   : 120000 // 2 minutes
 		}
 		
 		// Extend user-set options over defaults
